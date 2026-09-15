@@ -87,5 +87,4 @@ module.exports = composePlugins(
 		config.plugins.push(new CopyWebpackPlugin({ patterns: packagePatterns }));
 
 		return config;
-	}
-);
+	};
